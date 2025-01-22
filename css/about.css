@@ -1,0 +1,43 @@
+.about-hero {
+    background-color: #F8F0F1;
+    color: #DC143C;
+    text-align: center;
+    padding: 60px 15px;
+}
+
+.about-hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-hero p {
+    font-size: 18px;
+}
+
+.about-content {
+    padding: 40px 15px;
+    text-align: left;
+}
+
+.about-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-content ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.about-content ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}

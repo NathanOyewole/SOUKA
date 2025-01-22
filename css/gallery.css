@@ -1,0 +1,22 @@
+.gallery-hero {
+    background-color: #F9F9F9;
+    text-align: center;
+    padding: 50px 15px;
+    color: #1A1A1A;
+}
+
+.gallery-grid {
+    padding: 40px 15px;
+}
+
+.gallery-grid .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

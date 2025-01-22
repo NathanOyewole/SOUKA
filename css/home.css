@@ -1,0 +1,86 @@
+.header {
+    background-color: #1A1A1A;
+    color: white;
+    padding: 15px 0;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-links li a {
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-links li a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background: url("../assets/images/DALL·E\ 2025-01-22\ 03.31.40\ -\ A\ traditional\ Japanese-style\ logo\ design\ for\ the\ text\ \'SOUKA\'\,\ featuring\ bold\ calligraphic-style\ typography\ inspired\ by\ Japanese\ brush\ strokes.\ The\ te.webp") no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 15px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Culture Highlights */
+.culture-highlights {
+    padding: 50px 15px;
+    text-align: center;
+}
+
+.highlight-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h4 {
+    font-size: 20px;
+    margin: 10px 15px;
+    color: #DC143C;
+}
+
+.card p {
+    margin: 0 15px 15px;
+    font-size: 14px;
+    color: #555;
+}
